@@ -1,0 +1,12 @@
+﻿<Window x:Class="EventLottery.Counting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EventLottery"
+        mc:Ignorable="d"
+        Title="Counting" Height="500" Width="1000" Loaded="Window_Loaded" Topmost="True" WindowStyle="None" WindowStartupLocation="CenterScreen" WindowState="Maximized" Background="#FF311892">
+    <Grid>
+        <TextBlock Name="TB" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0" TextWrapping="Wrap" Text="10" TextAlignment="Center" FontSize="300" Foreground="White" FontWeight="Bold"/>
+    </Grid>
+</Window>
